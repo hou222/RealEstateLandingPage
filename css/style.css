@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 165vh;
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    /* display: flex;
+    flex-flow: column nowrap; */
+    background-image: url(/img/snow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    
+}
+
+.header-top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Rubik', sans-serif;
+    background-color: red;
+}
+
+.icon-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.header-top-text {
+    font-size: 20px;
+    padding-bottom: 3.5px;
+}
+
+.icon-container img {
+    height: 38px;
+    width: 58px;
+}
+
+.header-ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.header-ul a {
+    text-decoration: none;
+    color: #00000093;
+    font-size: 15px;
+}
+
+.header-ul a:hover {
+    font-weight: bold;
+    color: #000;
+}
+
+.header-ul button {
+    background-color: #2272D2;
+    color: #FFF;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
