@@ -256,7 +256,8 @@
     cursor: pointer;
 }
 
-.main-about {
+.main-about,
+.main-opinions {
     padding: 100px;
     background-color: #FBFAF8;
     display: flex;
@@ -265,7 +266,8 @@
     justify-content: flex-start;
 }
 
-.about-title {
+.about-title,
+.opinions-title {
     width: 650px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
@@ -275,6 +277,10 @@
 
 .about-p {
     width: 450px;
+}
+
+.about-p,
+.opinions-p {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     text-align: center;
@@ -463,3 +469,71 @@
     color: #FFF;
     border: 2px solid #2272D2;
 }
+
+.comment-box {
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 60px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: ;
+}
+
+.profile-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.comment-date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    padding-top: 8px;
+}
+
+.profile {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment {
+    margin-top: 70px;
+    width: 1050px;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    line-height: 45px;
+    text-align: center;
+}
+
+.cricles-container {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle {
+    height: 12px;
+    width: 12px;
+    background-color: rgba(128, 128, 128, 0.33);
+    border-radius: 50%;
+}
+
+.selected {
+    background-color: #2272D2;
+}
+
