@@ -148,14 +148,13 @@
 
 .homeowner-title {
     width: 750px;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
     padding: 60px 0 0 0;
 }
 
-.homeowner-description {/* 
-    background-color: red; */
+.homeowner-description {
     padding-top: 70px;
     padding-bottom: 100px;
 }
@@ -290,7 +289,7 @@
     justify-content: center;
     align-items: center;
     gap: 150px;
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 .options-container {
@@ -324,4 +323,143 @@
     font-weight: 300;
     text-align: center;
     line-height: 25px;
+}
+
+.main-property {
+    padding: 100px 70px;
+}
+
+.property-heading {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.property-heading p {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.property-heading button {
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+}
+
+.property-info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.property-info-container {
+    width: 440px;
+    height: auto;
+    border: 2px #9999993c solid;
+    border-radius: 15px;
+}
+
+.image-container,
+.property-image {
+    background-color: #000;
+    width: 100%;
+    height: 245px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    position: relative;
+    
+}
+
+.image-location,
+.image-state {
+    position: absolute;
+    padding: 10px;
+    background-color: #ffffffc0;
+    top: 0;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 15px;
+    
+}
+
+.image-location {
+    left: 0;
+}
+
+.image-state {
+    right: 0;    
+}
+
+.property-description {
+    padding: 20px;
+}
+
+.property-location {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.property-details {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.property-details div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.property-details p {
+    color: #6d6d6d;
+    font-family: 'Inter', sans-serif;
+    font-size: 13.5px;
+    display: inline;
+}
+
+.price {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.price p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.price button {
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+}
+
+.price button:hover {
+    background-color: #2272D2;
+    color: #FFF;
+    border: 2px solid #2272D2;
 }
