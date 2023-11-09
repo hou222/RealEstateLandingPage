@@ -376,7 +376,6 @@
 
 .image-container,
 .property-image {
-    background-color: #000;
     width: 100%;
     height: 245px;
     border-top-right-radius: 15px;
@@ -595,4 +594,56 @@
 
 .article-p1 {
     padding-top: 20px;
+}
+
+.main-contact {
+    background-color: #a4b9d168;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 100px 100px 100px;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-media-container {
+    width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.media-container-p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.media-acc {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.acc {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #7a7a7a6e;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.acc-blue {
+    background-color: #2272D2;
+}
+
+.acc img {
+    width: 15px;
+    height: 15px;
 }
