@@ -331,7 +331,8 @@
     line-height: 25px;
 }
 
-.main-property {
+.main-property,
+.main-article {
     padding: 100px 70px;
 }
 
@@ -342,7 +343,7 @@
     align-items: center;
 }
 
-.property-heading p {
+.property-heading p:first-child {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 60px;
@@ -410,7 +411,8 @@
     padding: 20px;
 }
 
-.property-location {
+.property-location,
+.article-p1 {
     font-size: 25px;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
@@ -484,7 +486,6 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    position: ;
 }
 
 .profile-name {
@@ -537,3 +538,61 @@
     background-color: #2272D2;
 }
 
+.article-p {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    padding-top: 30px;
+}
+
+.article-info-container {
+    width: 440px;
+    height: auto;
+    background-color: #FBFAF8;
+    border-radius: 15px;
+}
+
+.article-description {
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.article-description div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.article-description button {
+    background-color: rgba(50, 86, 107, 0.156);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 2.5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.article-date,
+.article-p2 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.article-p2 {
+    padding-top: 15px;
+}
+
+.article-p3 {
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.article-p1 {
+    padding-top: 20px;
+}
