@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&family=Rubik&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap'); */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@
     margin: 10px;
     padding: 15px 55px;
     border-radius: 15px;
-    background-image: url(/img/snow.jpg);
+    background-image: url(/img/snow2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 30%;
@@ -37,6 +38,7 @@
 .header-top-text {
     font-size: 20px;
     padding-bottom: 3.5px;
+    font-family:'Rubik', sans-serif;
 }
 
 .icon-container img {
@@ -394,8 +396,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 13px;
     font-weight: bold;
-    margin: 15px;
-    
+    margin: 15px;   
 }
 
 .image-location {
@@ -637,6 +638,7 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .acc-blue {
@@ -646,4 +648,70 @@
 .acc img {
     width: 15px;
     height: 15px;
+}
+
+.contact-links-container {
+    width: 600px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.links {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.links li {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+
+.links:nth-child(2) {
+    width: 250px;
+}
+
+.links-title {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #a4b9d168;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0px 100px 30px 100px;
+    
+}
+
+.footer-line {
+    height: 1px;
+    width: 100%;
+    background-color: #7a7a7a6e;
+}
+
+.footer p {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
 }

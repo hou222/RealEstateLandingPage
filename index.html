@@ -17,10 +17,10 @@
             <nav class="header-nav">
                 <ul class="header-ul">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">Property</a></li>
-                    <li><a href="/">Homeowner</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="#property">Property</a></li>
+                    <li><a href="#homewoner">Homeowner</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><button>Login</button></li>
                 </ul>
             </nav>
@@ -45,7 +45,7 @@
         </div>
     </header>
     <main class="main">
-        <div class="main-homeowner">
+        <div id="homeowner" class="main-homeowner">
             <p class="homeowner-title">
                 Why home owners choose HouseFrame
             </p>
@@ -94,7 +94,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-about">
+        <div id="about" class="main-about">
             <p class="about-title">
                 Find your dream house three easy steps.
             </p>
@@ -135,7 +135,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-property">
+        <div id="property" class="main-property">
             <div class="property-heading">
                 <p>
                     Property feature
@@ -147,7 +147,6 @@
                     <div class="image-container">
                         <img class="property-image" src="/img/House.jpg" alt="house">
                         <p class="image-location">
-
                             New York, USA
                         </p>
                         <p class="image-state">
@@ -387,7 +386,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-contact">
+        <div id="contact" class="main-contact">
             <div class="contact-media-container">
                 <div class="icon-container">
                     <img src="/img/icon.png" alt="icon">
@@ -414,32 +413,64 @@
                 </div>
             </div>
             <div class="contact-links-container">
-                <div class="company">
+                <!-- <div class="links">
+                    <p class="links-title">Company</p>
                     <a href="/">Home</a>
                     <a href="/">About us</a>
                     <a href="/">Property</a>
                     <a href="/">How it works</a>
                     <a href="/">Contact</a>
-                </div>
-                <div class="help">
-                    <a href="/">Customer Support</a>
-                    <a href="/">Terms & Conditions</a>
-                    <a href="/">Privacy Policy</a>
-                    <a href="/">How it works</a>
-                    <a href="/">Contact</a>
-                </div>
-                <dev class="contact-us">
-                    <a href="/">8502 Preston Rd. Inglewood, 
-                        Maine 98380, USA
-                    </a>
-                    <a href="/">
+                </div> -->
+                <ul class="links">
+                    <li><p class="links-title">Company</p></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About us</a></li>
+                    <li><a href="/">Property</a></li>
+                    <li><a href="/">How it works</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+                <ul class="links">
+                    <li><p class="links-title">Help</p></li>
+                    <li><a href="/">Customer Support</a></li>
+                    <li><a href="/">Terms & Conditions</a></li>
+                    <li><a href="/">Privacy Policy</a></li>
+                    <li><a href="/">How it works</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+                <ul class="links">
+                    <li><p class="links-title">Contact Us</p></li>
+                    <li>
+                        <img src="/img/location-black.png" alt="">
+                        <a>
+                            8502 Preston Rd, Inglewood, Maine 98380, USA
+                        </a>
+                    </li>
+                    <li>
+                        <img src="/img/telephone.png" alt="">
+                        <a href="/">
                         +86 254 554 91
-                    </a>
-                    <a href="/">mail@example.com</a>
-                </dev>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="/img/email.png" alt="">
+                        <a href="/">
+                        mail@example.com
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </main>
+    <footer class="footer">
+        <div class="footer-line">
+
+        </div>
+        
+            <p>
+                &copy; Copyright 2023, HouseFrame All Rights Reserved
+            </p>
+        
+    </footer>
 </body>
 </html>
 
